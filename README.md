@@ -11,7 +11,11 @@ Quick way to search for information about tradeable goods in Avorion!
 * Node 6+
 * npm 5+
 
-`npm install`
-`npm start`
+Install deps: `npm install`
+Start server: `npm start`
+
+Visit [localhost:8080](http://localhost:8080)
+
+_page will refresh when JS or CSS is updated_
 
 To build the JS and CSS bundles: `npm run build`
