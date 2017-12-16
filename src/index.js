@@ -1,12 +1,26 @@
 import { app } from 'hyperapp';
-import actions from './actions';
-import state from './state';
 import view from './components/Counter';
-import goods from './../goods';
+import goodsData from './../goods';
+
+const findAlikes = (searchTerm) => {
+  const match = good => term => good.Name.toLowerCase().includes(term);
+  return good => match(good)(searchTerm);
+};
 
 const model = {
-  state: Object.assign({}, state, { goods }),
-  actions,
+  state: {
+    goods: goodsData,
+    results: goodsData.map(e => e),
+  },
+  actions: {
+    search: ({ target }) => ({ goods }) => {
+      const searchTerm = target.value.trim().toLowerCase();
+
+      const results = goods.filter(findAlikes(searchTerm));
+
+      return { results };
+    },
+  },
 };
 
 const {

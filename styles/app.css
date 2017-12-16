@@ -1,20 +1,47 @@
 body {
   padding: 20px;
   font-family: sans-serif;
-  justify-content: center;
   min-height: 100vh;
   margin: 0;
   font-size: 16px;
 }
 
-.add {
+.bad {
   width: 300px;
   background-color: rgb(48, 192, 91);
   color: #fff;
 }
 
-.sub {
+.good {
   width: 300px;
-  background-color: mediumvioletred;
+  background-color: rgb(199, 21, 45);
   color: #fff;
+}
+
+.card {
+  padding: 10px;
+  margin: 15px 0px 15px 0px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: lightgray;
+  background-color: rgb(255, 255, 253);
+  width: 400px;
+  -webkit-box-shadow: 0 8px 6px -6px grey;
+	-moz-box-shadow: 0 8px 6px -6px grey;
+	box-shadow: 0px 8px 8px -6px grey;
+}
+
+input {
+  outline: 0;
+  border-width: 0 0 1.5px 0;
+  border-color: dodgerblue;
+}
+
+input:focus {
+  border-color: rgb(43, 7, 248)
+}
+
+h5 {
+  padding-left: 5px;
 }
