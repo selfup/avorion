@@ -1,13 +1,12 @@
 {
-  "name": "hyperapp-one",
+  "name": "avorion",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack --env production",
-    "wipe": "rm -rf .git && git init && git add . && git commit -m 'initial commit'",
-    "test": "echo 'FOR TRAVIS CI' && npm run build && rm bundle.css bundle.js && echo 'SUCCESS!'"
+    "test": "echo 'NONE'"
   },
   "author": "Regis Boudinot (selfup)",
   "license": "MIT",

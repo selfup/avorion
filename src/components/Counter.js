@@ -6,28 +6,50 @@ import { h } from 'hyperapp';
  * here we destructure what is needed
  * 'num' from 'state' and 'add'/'sub' from 'actions'
  */
+const resultsLoader = results =>
+  results.map((result) => {
+    const legal = result['Illegal?'] === 'no' ? 'LEGAL' : 'ILLEGAL';
+    const dangerous = result['Dangerous?'] === 'no' ? 'SAFE' : 'NOT SAFE - DANGEROUS';
+    const soldBy = result['Sold By'] ? result['Sold By'] : 'No One'; 
+
+    return (
+      <article>
+        <h1>{result.Name}</h1>
+        <p>Volume: {result.Volume}</p>
+        <p>Avg Price: {result['Avg. Price']}</p>
+        <h4>Sold By: {soldBy}</h4>
+        <h4>Bought By: {result['Bought By']}</h4>
+        <h4 class={legal === 'LEGAL' ? 'add' : 'sub'}>{legal}</h4>
+        <h4 class={dangerous === 'SAFE' ? 'add' : 'sub'}>{dangerous}</h4>
+      </article>
+    );
+  });
+
 export default ({
-  state: { num },
-  actions: { add, sub },
-}) =>
-  <div class="counter">
-    <h1>hyperapp-one</h1>
-    <p><em>With JSX and Webpack</em></p>
-    <hr />
-    <section>
-      <button
-        class="sub"
-        onclick={sub}
-        disabled={num < 1}
-      >
-        -
-      </button>
-      <h1 class="count">{num}</h1>
-      <button
-        class="add"
-        onclick={add}
-      >
-        +
-      </button>
-    </section>
-  </div>;
+  state: { results },
+  actions: { search },
+}) => {
+  if (results.length > 0) {
+    return (
+      <div class="counter">
+        <h3>Search for Good</h3>
+        <input onkeyup={search} />
+        <br />
+        <hr />
+        <section>
+         {resultsLoader(results)}
+        </section>
+      </div>
+    );
+  }
+
+  return (
+    <div class="counter">
+      <h3>Search for Good</h3>
+      <input onkeyup={search} />
+      <br />
+      <hr />
+    </div>
+  );
+};
+
