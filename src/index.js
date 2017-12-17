@@ -53,7 +53,7 @@ const model = {
             });
         }
 
-        if (boughtByStations.split(',').includes(searchTerm)) {
+        if (boughtByStations.includes(searchTerm)) {
           buys.push(good.Name);
 
           boughtByStations.split(',')
