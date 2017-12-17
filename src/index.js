@@ -1,5 +1,5 @@
 import { app } from 'hyperapp';
-import view from './components/Counter';
+import view from './components/App';
 import goodsData from './../goods';
 
 const findAlikes = (searchTerm) => {
