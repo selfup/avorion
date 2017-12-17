@@ -45,10 +45,10 @@ const model = {
         if (soldByStations.includes(searchTerm)) {
           sells.push(good.Name);
 
-          soldByStations.split(',')
+          soldByStations.split(', ')
             .forEach((station) => {
               if (station.includes(searchTerm)) {
-                if (!names.includes(station)) names.push(station);
+                names.push(station);
               }
             });
         }
@@ -56,16 +56,22 @@ const model = {
         if (boughtByStations.includes(searchTerm)) {
           buys.push(good.Name);
 
-          boughtByStations.split(',')
+          boughtByStations.split(', ')
             .forEach((station) => {
               if (station.includes(searchTerm)) {
-                if (!names.includes(station)) names.push(station);
+                names.push(station);
               }
             });
         }
       });
 
-      return { name: names.join(', '), sells, buys };
+      const uniqueNames = Array.from(new Set(names));
+
+      return {
+        name: uniqueNames.join(', '),
+        sells,
+        buys,
+      };
     },
     bitFlip: () => ({ goodSearch }) => ({ goodSearch: !goodSearch }),
   },
