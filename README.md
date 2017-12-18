@@ -8,6 +8,7 @@ Quick way to search for information about tradeable goods in Avorion!
 
 ### Dev ENV
 
+* VSCode with ESLint plugin
 * Node 6+
 * npm 5+
 * Install deps: `npm install`
