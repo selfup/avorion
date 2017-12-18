@@ -20,20 +20,20 @@ const stationInput = handler => (
   />
 );
 
-export default ({
-  state: {
+export default (
+  {
     goodSearch,
     results,
     sells,
     buys,
     name,
   },
-  actions: {
+  {
     searchGoods,
     searchStations,
     bitFlip,
   },
-}) =>
+) =>
   <div class="counter">
     <h3>Filter {goodSearch ? 'Goods' : 'Stations'}</h3>
 
