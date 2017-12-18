@@ -2,7 +2,7 @@ import { h } from 'hyperapp';
 
 export default (_result, { name, sells, buys }) => {
   const sellItems = sells.map(item => <li>{item}</li>);
-  const buyItems = buys.map(item => <li>{item}</li>)
+  const buyItems = buys.map(item => <li>{item}</li>);
 
   return (
     <div>
