@@ -7,80 +7,82 @@ const findAlikes = (searchTerm) => {
   return good => match(good)(searchTerm);
 };
 
-const model = {
-  state: {
-    goods: goodsData,
-    results: goodsData.map(e => e),
-    goodSearch: true,
-    sells: [],
-    buys: [],
-    name: '',
+const state = {
+  goods: goodsData,
+  results: goodsData.map(e => e),
+  goodSearch: true,
+  sells: [],
+  buys: [],
+  name: '',
+};
+
+const actions = {
+  searchGoods: ({ target }) => ({ goods }) => {
+    const searchTerm = target.value.trim().toLowerCase();
+    const results = goods.filter(findAlikes(searchTerm));
+
+    return { results };
   },
-  actions: {
-    searchGoods: ({ target }) => ({ goods }) => {
-      const searchTerm = target.value.trim().toLowerCase();
-      const results = goods.filter(findAlikes(searchTerm));
+  searchStations: ({ target }) => ({ goods }) => {
+    const searchTerm = target.value.trim().toLowerCase();
 
-      return { results };
-    },
-    searchStations: ({ target }) => ({ goods }) => {
-      const searchTerm = target.value.trim().toLowerCase();
+    if (searchTerm === '') {
+      return {
+        name: '',
+        sells: [],
+        buys: [],
+      };
+    }
 
-      if (searchTerm === '') {
-        return {
-          name: '',
-          sells: [],
-          buys: [],
-        };
+    const sells = [];
+    const buys = [];
+    const names = [];
+
+    goods.forEach((good) => {
+      const soldByStations = good['Sold By'].toLowerCase();
+      const boughtByStations = good['Bought By'].toLowerCase();
+
+      if (soldByStations.includes(searchTerm)) {
+        sells.push(good.Name);
+
+        soldByStations.split(', ')
+          .forEach((station) => {
+            if (station.includes(searchTerm)) {
+              names.push(station);
+            }
+          });
       }
 
-      const sells = [];
-      const buys = [];
-      const names = [];
+      if (boughtByStations.includes(searchTerm)) {
+        buys.push(good.Name);
 
-      goods.forEach((good) => {
-        const soldByStations = good['Sold By'].toLowerCase();
-        const boughtByStations = good['Bought By'].toLowerCase();
+        boughtByStations.split(', ')
+          .forEach((station) => {
+            if (station.includes(searchTerm)) {
+              names.push(station);
+            }
+          });
+      }
+    });
 
-        if (soldByStations.includes(searchTerm)) {
-          sells.push(good.Name);
+    const uniqueNames = Array.from(new Set(names));
 
-          soldByStations.split(', ')
-            .forEach((station) => {
-              if (station.includes(searchTerm)) {
-                names.push(station);
-              }
-            });
-        }
-
-        if (boughtByStations.includes(searchTerm)) {
-          buys.push(good.Name);
-
-          boughtByStations.split(', ')
-            .forEach((station) => {
-              if (station.includes(searchTerm)) {
-                names.push(station);
-              }
-            });
-        }
-      });
-
-      const uniqueNames = Array.from(new Set(names));
-
-      return {
-        name: uniqueNames.join(', '),
-        sells,
-        buys,
-      };
-    },
-    bitFlip: () => ({ goodSearch }) => ({ goodSearch: !goodSearch }),
+    return {
+      name: uniqueNames.join(', '),
+      sells,
+      buys,
+    };
+  },
+  bitFlip() {
+    return ({ goodSearch }) => ({ goodSearch: !goodSearch });
   },
 };
 
 const {
   actions: dispatch,
 } = app(
-  model,
+  state,
+  actions,
   view,
   document.body,
 );
