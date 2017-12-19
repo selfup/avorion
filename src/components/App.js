@@ -42,7 +42,7 @@ export default (
       {
         goodSearch
           ? 'Switch to Station Search by name'
-          : 'Switch to Good search by name'
+          : 'Switch to Good Search by name'
       }
     </button>
     <br />
