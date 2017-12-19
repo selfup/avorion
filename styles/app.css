@@ -19,12 +19,14 @@ body {
 }
 
 .card {
+  vertical-align: top;
   padding: 10px;
-  margin: 15px 0px 15px 0px;
+  margin: 15px 10px 15px 10px;
   border-radius: 5px;
   border-style: solid;
   border-width: 0.5px;
   border-color: lightgray;
+  display: inline-block;
   background-color: rgb(255, 255, 253);
   width: 400px;
   -webkit-box-shadow: 0 8px 6px -6px grey;
@@ -44,4 +46,8 @@ input:focus {
 
 h5 {
   padding-left: 5px;
+}
+
+section {
+  margin-left: -10px;
 }

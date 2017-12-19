@@ -78,9 +78,7 @@ const actions = {
   },
 };
 
-const {
-  actions: dispatch,
-} = app(
+app(
   state,
   actions,
   view,
