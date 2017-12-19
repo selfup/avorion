@@ -30,8 +30,8 @@ body {
   background-color: rgb(255, 255, 253);
   width: 400px;
   -webkit-box-shadow: 0 8px 6px -6px grey;
-	-moz-box-shadow: 0 8px 6px -6px grey;
-	box-shadow: 0px 8px 8px -6px grey;
+  -moz-box-shadow: 0 8px 6px -6px grey;
+  box-shadow: 0px 8px 8px -6px grey;
 }
 
 input {
