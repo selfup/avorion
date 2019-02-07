@@ -4,15 +4,17 @@
 
 Quick way to search for information about tradeable goods in Avorion!
 
+Data comes from: https://avorion.gamepedia.com/Goods?action=raw
+
 :rocket:
 
 ### Dev ENV
 
-* VSCode with ESLint plugin
-* Node 6+
-* npm 5+
-* Install deps: `npm install`
-* Start server: `npm start`
+- VSCode with ESLint plugin
+- Node 6+
+- npm 5+
+- Install deps: `npm install`
+- Start server: `npm start`
 
 Visit [localhost:8080](http://localhost:8080)
 
