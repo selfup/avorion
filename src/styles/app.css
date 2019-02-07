@@ -45,7 +45,7 @@ input {
 }
 
 input:focus {
-  border-color: rgb(43, 7, 248)
+  border-color: rgb(43, 7, 248);
 }
 
 h5 {

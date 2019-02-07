@@ -2,7 +2,7 @@ import { app } from 'hyperapp';
 import view from './components/App';
 import goodsData from './../goods';
 
-const findAlikes = (searchTerm) => {
+const findAlikes = searchTerm => {
   const match = good => term => good.Name.toLowerCase().includes(term);
   return good => match(good)(searchTerm);
 };
@@ -38,30 +38,28 @@ const actions = {
     const buys = [];
     const names = [];
 
-    goods.forEach((good) => {
+    goods.forEach(good => {
       const soldByStations = good['Sold By'].toLowerCase();
       const boughtByStations = good['Bought By'].toLowerCase();
 
       if (soldByStations.includes(searchTerm)) {
         sells.push(good.Name);
 
-        soldByStations.split(', ')
-          .forEach((station) => {
-            if (station.includes(searchTerm)) {
-              names.push(station);
-            }
-          });
+        soldByStations.split(', ').forEach(station => {
+          if (station.includes(searchTerm)) {
+            names.push(station);
+          }
+        });
       }
 
       if (boughtByStations.includes(searchTerm)) {
         buys.push(good.Name);
 
-        boughtByStations.split(', ')
-          .forEach((station) => {
-            if (station.includes(searchTerm)) {
-              names.push(station);
-            }
-          });
+        boughtByStations.split(', ').forEach(station => {
+          if (station.includes(searchTerm)) {
+            names.push(station);
+          }
+        });
       }
     });
 
@@ -78,9 +76,4 @@ const actions = {
   },
 };
 
-app(
-  state,
-  actions,
-  view,
-  document.body,
-);
+app(state, actions, view, document.body);

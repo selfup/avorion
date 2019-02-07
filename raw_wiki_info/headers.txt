@@ -1,0 +1,7 @@
+! Name
+! Volume
+! Avg. Price
+! Sold By
+! Bought By
+! Illegal?
+! Dangerous?

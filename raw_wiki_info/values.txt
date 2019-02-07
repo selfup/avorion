@@ -1,0 +1,1080 @@
+
+|Acid
+|1
+|402
+|[[Chemicals Factory]], [[Rubber Factory]]
+|[[Explosive Charge Factory]], [[Paint Manufacturer]]
+|no
+|no
+|-
+|Acron Drug
+|0.1
+|6000
+|
+|
+|yes
+|no
+|-
+|Adhesive
+|0.25
+|402
+|[[Chemicals Factory]]
+|[[Ammunition Factory]], [[Ammunition S Factory]], [[Explosive Charge Factory]], [[High Pressure Tube Factory]]
+|no
+|no
+|-
+|Aluminium
+|1
+|200
+|[[Aluminium Mine]]
+|[[Ammunition Factory]], [[Ammunition S Factory]], [[Gun Factory]], [[High Pressure Tube Factory]], [[Laser Head Factory]], [[Servo Factory]], [[Steel Tube Factory]], [[Tools Factory]]
+|no
+|no
+|-
+|Ammunition
+|3
+|3786
+|[[Ammunition Factory]]
+|[[Gun Factory]]
+|no
+|no
+|-
+|Ammunition L
+|2.5
+|422
+|[[Ammunition Factory]], [[Ammunition S Factory]]
+|Military Outpost
+|no
+|no
+|-
+|Ammunition M
+|1.5
+|422
+|[[Ammunition Factory]], [[Ammunition S Factory]]
+|Military Outpost
+|no
+|no
+|-
+|Ammunition S
+|0.5
+|422
+|[[Ammunition Factory]], [[Ammunition S Factory]]
+|Military Outpost
+|no
+|no
+|-
+|Anti-Grav Generator
+|2.5
+|71632
+|[[Anti-Grav Generator Factory]]
+|Research Station
+|no
+|no
+|-
+|Antigrav Unit
+|2.5
+|25391
+|[[Antigrav Unit Factory]]
+|[[Anti-Grav Generator Factory]], [[Body Armor Factory]], [[Teleporter Factory]], [[Vehicle Factory]],Oil Rig, Repair Dock, Shipyard
+|no
+|no
+|-
+|Beer
+|0.5
+|216
+|[[Brewery]]
+|Casino
+|no
+|no
+|-
+|Bio Gas
+|1
+|213
+|[[Cattle Ranch]], [[Fish Farm]], [[Sheep Ranch]]
+|[[Chemicals Factory]], [[Fungus Farm]], [[Plasma Cell Factory]]
+|no
+|no
+|-
+|Body Armor
+|1.5
+|95906
+|[[Body Armor Factory]]
+|[[Military Outpost]]
+|no
+|no
+|-
+|Book
+|0.2
+|319
+|[[Book Factory]]
+|Habitat
+|no
+|no
+|-
+|Carbon
+|1
+|423
+|[[Carbon Extractor]]
+|[[Body Armor Factory]], [[Chemicals Factory]], [[High Capacity Lens Factory]], [[High Pressure Tube Factory]], [[Steel Factory]]
+|no
+|no
+|-
+|Cattle
+|1.5
+|254
+|[[Cattle Ranch]]
+|[[Dairy Factory]], [[Meat Factory]]
+|no
+|no
+|-
+|Chemicals
+|1
+|402
+|[[Chemicals Factory]]
+|[[Ammunition Factory]], [[Explosive Charge Factory]], [[Fertilizer Factory]], [[Medical Supplies Factory]], [[Paint Manufacturer]], [[Warhead Factory]]
+|no
+|no
+|-
+|Chlorine
+|1
+|150
+|[[Gas Collector]]
+|[[Medical Supplies Factory]]
+|no
+|no
+|-
+|Clothes
+|1
+|102
+|[[Clothes Factory]]
+|
+|no
+|no
+|-
+|Coal
+|2
+|200
+|[[Coal Mine]]
+|[[Steel Factory]]
+|no
+|no
+|-
+|Cocoa
+|0.2
+|87
+|[[Cocoa Farm]]
+|Habitat
+|no
+|no
+|-
+|Coffee
+|0.2
+|187
+|[[Coffee Farm]]
+|Habitat
+|no
+|no
+|-
+|Computation Mainframe
+|1
+|37940
+|[[Computation Mainframe Factory]]
+|
+|no
+|no
+|-
+|Conductor
+|0.15
+|168
+|[[Conductor Factory]]
+|[[Accelerator Factory]], [[Electro Magnet Factory]], [[Energy Generator Factory]], [[Energy Inverter Factory]], [[Laser Head Factory]], [[Servo Factory]], [[Targeting System Factory]], [[Teleporter Factory]], [[Warhead Factory]]
+|no
+|no
+|-
+|Coolant
+|0.5
+|402
+|[[Chemicals Factory]]
+|[[Body Armor Factory]], [[Mining Robot Factory]], [[Turbine Factory]], [[War Robot Factory]]
+|no
+|no
+|-
+|Copper
+|1
+|350
+|[[Copper Mine]]
+|[[Computer Component Factory]], [[Electro Magnet Factory]], [[Processor Factory]], [[Targeting Card Factory]], [[Tesla Coil Factory]]
+|no
+|no
+|-
+|Corn
+|1
+|28
+|[[Corn Farm]]
+|[[Carbon Extractor]], [[Cattle Ranch]], [[Food Bar Factory]], [[Food Factory]], [[Sheep Ranch]], Biotope
+|no
+|no
+|-
+|Crystal
+|1.5
+|190
+|[[Crystal Farm]]
+|[[Glass Manufacturer]], [[Nanobot Factory]]
+|no
+|no
+|-
+|Dairy
+|1
+|19
+|[[Dairy Factory]]
+|[[Protein Factory]]
+|no
+|no
+|-
+|Diamond
+|0.05
+|750
+|
+|[[Drill Factory]], [[High Capacity Lens Factory]], [[Jewelry Manufacturer]]
+|no
+|no
+|-
+|Display
+|1
+|7858
+|[[Computer Component Factory]], [[Display Factory]]
+|[[Computation Mainframe Factory]], [[Mining Robot Factory]], [[Satellite Factory]], [[Vehicle Factory]], [[War Robot Factory]]
+|no
+|no
+|-
+|Drill
+|20
+|20443
+|[[Drill Factory]]
+|[[Mining Robot Factory]], Research Station, Mines
+|no
+|no
+|-
+|Drone
+|10
+|7754
+|[[Drone Factory]]
+|
+|no
+|no
+|-
+|Electro Magnet
+|0.75
+|483
+|[[Electro Magnet Factory]]
+|[[Anti-Grav Generator Factory]], [[Electromagnetic Charge Factory]], [[Force Generator Factory]], [[Gauss Rail Factory]]
+|no
+|no
+|-
+|Electromagnetic Charge
+|1
+|13985
+|[[Electromagnetic Charge Factory]]
+|Military Outpost
+|no
+|no
+|-
+|Electron Accelerator
+|12
+|125431
+|[[Accelerator Factory]]
+|[[Research Station]]
+|no
+|no
+|-
+|Energy Cell
+|0.5
+|50
+|[[Solar Power Plant]]
+|[[Ammunition Factory]], [[Ammunition S Factory]], [[Antigrav Unit Factory]], [[Book Factory]], [[Chemicals Factory]], [[Cocoa Farm]], [[Coffee Farm]], [[Conductor Factory]], [[Corn Farm]], [[Distillery]], [[Energy Container Factory]], [[Energy Generator Factory]], [[Energy Tube Factory]], [[Explosive Charge Factory]], [[Fertilizer Factory]], [[Food Bar Factory]], [[Fruit Farm]], [[Fuel Factory]], [[Gauss Rail Factory]], [[Laser Head Factory]], [[Laser Modulator Factory]], [[Luxury Food Factory]], [[Microchip Factory]], [[Oil Refinery]], [[Plant Farm]], [[Plasma Cell Factory]], [[Plastic Manufacturer]], [[Potato Farm]], [[Power Unit Factory]], [[Rice Farm]], [[Rubber Factory]], [[Semi Conductor Manufacturer]], [[Sheep Ranch]], [[Solar Cell Factory]], [[Spices Farm]], [[Targeting System Factory]], [[Tea Farm]], [[Tools Factory]], [[Transformator Factory]], [[Vegetable Farm]], [[Wheat Farm]], [[Wood Farm]]
+|no
+|no
+|-
+|Energy Container
+|4.5
+|1087
+|[[Energy Container Factory]]
+|[[Electromagnetic Charge Factory]], [[Satellite Factory]]
+|no
+|no
+|-
+|Energy Generator
+|2
+|15957
+|[[Energy Generator Factory]]
+|[[Anti-Grav Generator Factory]], [[Force Generator Factory]], [[Vehicle Factory]]
+|no
+|no
+|-
+|Energy Inverter
+|3
+|1277
+|[[Energy Inverter Factory]]
+|
+|no
+|no
+|-
+|Energy Tube
+|1.5
+|2895
+|[[Energy Tube Factory]]
+|[[Accelerator Factory]], [[Electromagnetic Charge Factory]], [[Energy Inverter Factory]], [[Fusion Core Factory]], [[Gauss Rail Factory]], [[Laser Compressor Factory]], [[Laser Modulator Factory]]
+|no
+|no
+|-
+|Explosive Charge
+|1.5
+|1423
+|[[Explosive Charge Factory]]
+|
+|no
+|yes
+|-
+|Fabric
+|1
+|91
+|[[Fabric Factory]], [[Sheep Ranch]]
+|[[Clothes Factory]], [[Medical Supplies Factory]]
+|no
+|no
+|-
+|Fertilizer
+|1
+|319
+|[[Fertilizer Factory]]
+|[[Cocoa Farm]], [[Coffee Farm]], [[Spices Farm]]
+|no
+|no
+|-
+|Fish
+|0.5
+|152
+|[[Fish Farm]]
+|
+|no
+|no
+|-
+|Fluorine
+|1
+|250
+|[[Gas Collector]]
+|[[Explosive Charge Factory]], [[Fuel Factory]]
+|no
+|yes
+|-
+|Food
+|0.5
+|300
+|[[Food Factory]]
+|Habitat
+|no
+|no
+|-
+|Food Bar
+|0.5
+|223
+|[[Food Bar Factory]]
+|[[Military Outpost]]
+|no
+|no
+|-
+|Force Generator
+|4
+|49576
+|[[Force Generator Factory]]
+|Research Station
+|no
+|no
+|-
+|Fruit
+|0.5
+|56
+|[[Fruit Farm]]
+|[[Luxury Food Factory]], [[Wine Factory]]
+|no
+|no
+|-
+|Fuel
+|1
+|1232
+|[[Fuel Factory]]
+|[[Drone Factory]], [[Rocket Factory]]
+|no
+|no
+|-
+|Fungus
+|1
+|46
+|[[Fungus Farm]]
+|[[Brewery]], [[Wine Factory]]
+|no
+|no
+|-
+|Fusion Core
+|2.5
+|5114
+|[[Fusion Core Factory]]
+|[[Fusion Generator Factory]], [[Tesla Coil Factory]]
+|no
+|no
+|-
+|Fusion Generator
+|2.5
+|39553
+|[[Fusion Generator Factory]]
+|[[Accelerator Factory]], Research Station, Mines
+|no
+|no
+|-
+|Gauss Rail
+|2
+|7735
+|[[Gauss Rail Factory]]
+|[[Accelerator Factory]]
+|no
+|no
+|-
+|Gem
+|0.05
+|400
+|
+|[[Jewelry Manufacturer]]
+|no
+|no
+|-
+|Glass
+|1
+|182
+|[[Glass Manufacturer]]
+|[[Display Factory]], [[High Capacity Lens Factory]], [[Laser Head Factory]]
+|no
+|no
+|-
+|Gold
+|0.5
+|600
+|[[Noble Metal Mine]]
+|[[Computer Component Factory]], [[Conductor Factory]], [[Fusion Core Factory]], [[Jewelry Manufacturer]], [[Processor Factory]], [[Semi Conductor Manufacturer]], [[Solar Cell Factory]], [[Wire Manufacturer]]
+|no
+|no
+|-
+|Gun
+|0.5
+|1232
+|[[Gun Factory]]
+|[[War Robot Factory]], Military Outpost
+|no
+|yes
+|-
+|Helium
+|1
+|50
+|[[Gas Collector]]
+|[[Plasma Cell Factory]]
+|no
+|no
+|-
+|High Capacity Lens
+|1
+|4689
+|[[High Capacity Lens Factory]]
+|
+|no
+|no
+|-
+|High Pressure Tube
+|2
+|1650
+|[[High Pressure Tube Factory]]
+|[[Accelerator Factory]], [[Gauss Rail Factory]]
+|no
+|no
+|-
+|Hydrogen
+|1
+|150
+|[[Gas Collector]]
+|[[Chemicals Factory]], [[Fusion Core Factory]]
+|no
+|no
+|-
+|Industrial Tesla Coil
+|5.5
+|10314
+|[[Tesla Coil Factory]]
+|
+|no
+|yes
+|-
+|Jewelry
+|0.2
+|1260
+|[[Jewelry Manufacturer]]
+|
+|no
+|no
+|-
+|Laser Compressor
+|1.5
+|6577
+|[[Laser Compressor Factory]]
+|
+|no
+|no
+|-
+|Laser Head
+|2
+|4690
+|[[Laser Head Factory]]
+|[[Drill Factory]]
+|no
+|no
+|-
+|Laser Modulator
+|3
+|16742
+|[[Laser Modulator Factory]]
+|
+|no
+|no
+|-
+|Lead
+|1
+|200
+|[[Lead Mine]]
+|[[Ammunition Factory]], [[Ammunition S Factory]]
+|no
+|no
+|-
+|Leather
+|0.5
+|37
+|[[Dairy Factory]], [[Meat Factory]]
+|
+|no
+|no
+|-
+|Liquor
+|1.25
+|1867
+|[[Distillery]]
+|Casino, Habitat
+|no
+|no
+|-
+|Luxury Food
+|2.5
+|6452
+|[[Luxury Food Factory]]
+|Habitat
+|no
+|no
+|-
+|Meat
+|0.5
+|37
+|[[Meat Factory]]
+|[[Food Factory]], [[Protein Factory]]
+|no
+|no
+|-
+|Medical Supplies
+|1
+|3006
+|[[Medical Supplies Factory]]
+|Military Outpost
+|no
+|no
+|-
+|Metal Plate
+|3
+|792
+|[[Metal Plate Factory]]
+|[[Body Armor Factory]], [[Drone Factory]], [[Teleporter Factory]], [[Vehicle Factory]], [[Warhead Factory]]
+|no
+|no
+|-
+|Microchip
+|0.1
+|896
+|[[Microchip Factory]]
+|[[Computation Mainframe Factory]], [[Computer Component Factory]], [[Display Factory]], [[Energy Generator Factory]], [[Processor Factory]], [[Rocket Factory]], [[Targeting Card Factory]]
+|no
+|no
+|-
+|Military Tesla Coil
+|4.5
+|10314
+|[[Tesla Coil Factory]]
+|
+|no
+|yes
+|-
+|Mineral
+|1.5
+|500
+|[[Mineral Extractor]]
+|[[Fertilizer Factory]], [[Fungus Farm]]
+|no
+|no
+|-
+|Mining Robot
+|8
+|145977
+|[[Mining Robot Factory]]
+|Planetary Trading Post, Mines
+|no
+|no
+|-
+|Morn Drug
+|0.1
+|5000
+|
+|
+|yes
+|no
+|-
+|Nanobot
+|0.5
+|1338
+|[[Nanobot Factory]]
+|[[Body Armor Factory]], [[Force Generator Factory]], [[Mining Robot Factory]], [[War Robot Factory]], [[Repair Dock]]
+|no
+|no
+|-
+|Neon
+|1
+|200
+|[[Gas Collector]]
+|[[Energy Tube Factory]], [[Plasma Cell Factory]]
+|no
+|no
+|-
+|Neutron Accelerator
+|15
+|125431
+|[[Accelerator Factory]]
+|[[Research Station]]
+|no
+|no
+|-
+|Nitrogen
+|1
+|40
+|[[Gas Collector]]
+|[[Chemicals Factory]], [[Fuel Factory]]
+|no
+|no
+|-
+|Oil
+|1
+|490
+|[[Oil Refinery]]
+|[[Fuel Factory]], [[Paint Manufacturer]], [[Plastic Manufacturer]], [[Rubber Factory]]
+|no
+|no
+|-
+|Ore
+|2
+|70
+|[[Ore Mine]]
+|[[Glass Manufacturer]], [[Steel Factory]]
+|no
+|no
+|-
+|Oxygen
+|1
+|80
+|[[Cocoa Farm]], [[Coffee Farm]], [[Corn Farm]], [[Fruit Farm]], [[Gas Collector]], [[Plant Farm]], [[Potato Farm]], [[Rice Farm]], [[Spices Farm]], [[Tea Farm]], [[Vegetable Farm]], [[Wheat Farm]], [[Wood Farm]]
+|[[Cattle Ranch]], [[Chemicals Factory]], [[Fish Farm]], [[Sheep Ranch]]
+|no
+|no
+|-
+|Paint
+|1
+|481
+|[[Paint Manufacturer]]
+|[[Ammunition Factory]]
+|no
+|no
+|-
+|Paper
+|1
+|46
+|[[Paper Factory]]
+|[[Book Factory]]
+|no
+|no
+|-
+|Plankton
+|1
+|50
+|[[Fish Farm]], [[Plankton Collector]]
+|[[Fertilizer Factory]]
+|no
+|no
+|-
+|Plant
+|1.5
+|14
+|[[Plant Farm]]
+|
+|no
+|no
+|-
+|Plasma Cell
+|0.25
+|174
+|[[Plasma Cell Factory]]
+|[[Accelerator Factory]], [[Display Factory]], [[Drone Factory]], [[Fusion Core Factory]], [[Fusion Generator Factory]], [[Laser Compressor Factory]], [[Power Unit Factory]], [[Teleporter Factory]]
+|no
+|no
+|-
+|Plastic
+|0.5
+|137
+|[[Plastic Manufacturer]]
+|[[Energy Tube Factory]], [[Explosive Charge Factory]], [[Force Generator Factory]], [[Gun Factory]], [[High Capacity Lens Factory]], [[Servo Factory]], [[Tesla Coil Factory]], [[Transformator Factory]], [[Wire Manufacturer]]
+|no
+|no
+|-
+|Platinum
+|0.5
+|750
+|[[Noble Metal Mine]]
+|[[Computer Component Factory]], [[Conductor Factory]], [[Energy Tube Factory]], [[Jewelry Manufacturer]], [[Processor Factory]], [[Solar Cell Factory]], [[Tools Factory]]
+|no
+|no
+|-
+|Potato
+|1
+|24
+|[[Potato Farm]]
+|[[Carbon Extractor]]
+|no
+|no
+|-
+|Power Unit
+|5
+|1211
+|[[Power Unit Factory]]
+|[[Antigrav Unit Factory]], [[Computation Mainframe Factory]], [[Fusion Generator Factory]], [[Mining Robot Factory]], [[Teleporter Factory]], [[Turbine Factory]], [[Vehicle Factory]], [[War Robot Factory]]
+|no
+|no
+|-
+|Processor
+|0.1
+|7858
+|[[Computer Component Factory]], [[Processor Factory]]
+|[[Antigrav Unit Factory]], [[Computation Mainframe Factory]], [[Drill Factory]], [[Mining Robot Factory]], [[Satellite Factory]], [[Targeting Card Factory]], [[Targeting System Factory]], [[War Robot Factory]]
+|no
+|no
+|-
+|Protein
+|0.1
+|34
+|[[Protein Factory]]
+|
+|no
+|no
+|-
+|Proton Accelerator
+|15
+|125431
+|[[Accelerator Factory]]
+|[[Research Station]]
+|no
+|no
+|-
+|Raw Oil
+|1
+|150
+|[[Oil Rig]]
+|[[Oil Refinery]]
+|no
+|no
+|-
+|Rice
+|1
+|15
+|[[Rice Farm]]
+|[[Carbon Extractor]], [[Food Bar Factory]]
+|no
+|no
+|-
+|Rocket
+|4
+|11250
+|[[Rocket Factory]]
+|
+|no
+|yes
+|-
+|Rubber
+|1
+|686
+|[[Rubber Factory]]
+|[[Vehicle Factory]]
+|no
+|no
+|-
+|Satellite
+|15
+|65714
+|[[Satellite Factory]]
+|Research Station
+|no
+|no
+|-
+|Scrap Metal
+|3
+|25
+|[[Drill Factory]], [[Drone Factory]], [[Laser Compressor Factory]], [[Mining Robot Factory]], [[Satellite Factory]], [[Scrap Metal Trader]], [[Teleporter Factory]], [[Vehicle Factory]], [[War Robot Factory]], [[Warhead Factory]]
+|[[Steel Factory]]
+|no
+|no
+|-
+|Semi Conductor
+|0.1
+|129
+|[[Semi Conductor Manufacturer]]
+|[[Computer Component Factory]], [[Display Factory]], [[Microchip Factory]], [[Nanobot Factory]], [[Processor Factory]]
+|no
+|no
+|-
+|Servo
+|0.25
+|1387
+|[[Servo Factory]]
+|[[Anti-Grav Generator Factory]], [[Laser Modulator Factory]], [[Turbine Factory]]
+|no
+|no
+|-
+|Sheep
+|1
+|130
+|[[Sheep Ranch]]
+|[[Fabric Factory]]
+|no
+|no
+|-
+|Silicium
+|1
+|500
+|[[Silicium Mine]]
+|[[Semi Conductor Manufacturer]], [[Solar Cell Factory]], [[Transformator Factory]]
+|no
+|no
+|-
+|Silver
+|0.5
+|300
+|[[Noble Metal Mine]]
+|[[Metal Plate Factory]], [[Tools Factory]], [[Transformator Factory]]
+|no
+|no
+|-
+|Slave
+|1
+|15000
+|
+|
+|yes
+|no
+|-
+|Solar Cell
+|2
+|469
+|[[Solar Cell Factory]]
+|[[Solar Panel Factory]]
+|no
+|no
+|-
+|Solar Panel
+|6
+|6858
+|[[Solar Panel Factory]]
+|[[Satellite Factory]]
+|no
+|no
+|-
+|Solvent
+|1
+|402
+|[[Chemicals Factory]]
+|[[Fertilizer Factory]], [[Paint Manufacturer]]
+|no
+|no
+|-
+|Spices
+|0.3
+|268
+|[[Spices Farm]]
+|[[Luxury Food Factory]]
+|no
+|no
+|-
+|Steel
+|1
+|277
+|[[Steel Factory]]
+|[[Ammunition Factory]], [[Ammunition S Factory]], [[Conductor Factory]], [[Drill Factory]], [[Electro Magnet Factory]], [[Energy Tube Factory]], [[Explosive Charge Factory]], [[Force Generator Factory]], [[Fusion Generator Factory]], [[Gun Factory]], [[High Pressure Tube Factory]], [[Metal Plate Factory]], [[Plasma Cell Factory]], [[Rocket Factory]], [[Semi Conductor Manufacturer]], [[Servo Factory]], [[Steel Tube Factory]], [[Tesla Coil Factory]], [[Tools Factory]], [[Transformator Factory]], [[Turbine Factory]], [[Wire Manufacturer]]
+|no
+|no
+|-
+|Steel Tube
+|3
+|704
+|[[Steel Tube Factory]]
+|[[Energy Tube Factory]], [[High Pressure Tube Factory]], [[Satellite Factory]]
+|no
+|no
+|-
+|Targeting Card
+|0.5
+|11873
+|[[Computer Component Factory]], [[Targeting Card Factory]]
+|[[Targeting System Factory]]
+|no
+|no
+|-
+|Targeting System
+|0.75
+|29674
+|[[Targeting System Factory]]
+|[[Military Outpost]]
+|no
+|no
+|-
+|Tea
+|0.2
+|37
+|[[Tea Farm]]
+|Habitat
+|no
+|no
+|-
+|Teleporter
+|12
+|39365
+|[[Teleporter Factory]]
+|[[Body Armor Factory]], [[Mining Robot Factory]], [[War Robot Factory]]
+|no
+|no
+|-
+|Tools
+|0.4
+|214
+|[[Tools Factory]]
+|Equipment Dock
+|no
+|no
+|-
+|Toxic Waste
+|4
+|15
+|[[Ammunition Factory]], [[Fertilizer Factory]], [[Fuel Factory]], [[Fungus Farm]], [[Laser Head Factory]], [[Paint Manufacturer]], [[Rubber Factory]]
+|
+|no
+|yes
+|-
+|Transformator
+|0.2
+|209
+|[[Transformator Factory]]
+|[[Electro Magnet Factory]], [[Electromagnetic Charge Factory]], [[Energy Container Factory]], [[Energy Inverter Factory]], [[Fusion Core Factory]], [[Gauss Rail Factory]], [[Laser Compressor Factory]], [[Laser Modulator Factory]], [[Power Unit Factory]], [[Solar Panel Factory]], [[Teleporter Factory]]
+|no
+|no
+|-
+|Turbine
+|7.5
+|16729
+|[[Turbine Factory]]
+|[[Accelerator Factory]], [[Research Station]]
+|no
+|no
+|-
+|Vegetable
+|1
+|32
+|[[Vegetable Farm]]
+|[[Food Factory]]
+|no
+|no
+|-
+|Vehicle
+|25
+|77087
+|[[Vehicle Factory]]
+|Trading post, Military outpost
+|no
+|no
+|-
+|War Robot
+|8
+|92186
+|[[War Robot Factory]]
+|Military Outpost
+|no
+|yes
+|-
+|Warhead
+|3
+|5630
+|[[Warhead Factory]]
+|[[Rocket Factory]]
+|no
+|yes
+|-
+|Water
+|1
+|20
+|[[Ice Mine]], [[Water Collector]]
+|[[Brewery]], [[Cattle Ranch]], [[Chemicals Factory]], [[Cocoa Farm]], [[Coffee Farm]], [[Corn Farm]], [[Distillery]], [[Fish Farm]], [[Fruit Farm]], [[Fungus Farm]], [[Medical Supplies Factory]], [[Paint Manufacturer]], [[Paper Factory]], [[Plant Farm]], [[Potato Farm]], [[Rice Farm]], [[Sheep Ranch]], [[Spices Farm]], [[Tea Farm]], [[Vegetable Farm]], [[Wheat Farm]], [[Wood Farm]]
+|no
+|no
+|-
+|Wheat
+|1
+|23
+|[[Wheat Farm]]
+|[[Brewery]], [[Carbon Extractor]], [[Cattle Ranch]], [[Distillery]], [[Fish Farm]], [[Food Bar Factory]], [[Food Factory]], [[Luxury Food Factory]], [[Sheep Ranch]]
+|no
+|no
+|-
+|Wine
+|0.5
+|182
+|[[Wine Factory]]
+|[[Luxury Food Factory]], Habitat
+|no
+|no
+|-
+|Wire
+|0.5
+|95
+|[[Wire Manufacturer]]
+|[[Anti-Grav Generator Factory]], [[Computation Mainframe Factory]], [[Computer Component Factory]], [[Laser Compressor Factory]], [[Microchip Factory]], [[Targeting System Factory]]
+|no
+|no
+|-
+|Wood
+|2.5
+|350
+|[[Wood Farm]]
+|[[Paper Factory]]
+|no
+|no
+|-
+|Zinc
+|1
+|250
+|[[Zinc Mine]]
+|[[Conductor Factory]], [[Medical Supplies Factory]], [[Solar Cell Factory]]
+|no
+|no

@@ -2,48 +2,29 @@ import { h } from 'hyperapp';
 import Good from './Good';
 import Station from './Station';
 
-const resultsLoader = Comp =>
-  (results, data) =>
-    results.map(result => Comp(result, data));
+const resultsLoader = Comp => (results, data) =>
+  results.map(result => Comp(result, data));
 
 const goodInput = handler => (
-  <input
-    onkeyup={handler}
-    placeholder="type stuff here"
-  />
+  <input onkeyup={handler} placeholder="type stuff here" />
 );
 
 const stationInput = handler => (
-  <input
-    onkeyup={handler}
-    placeholder="type stuff here"
-  />
+  <input onkeyup={handler} placeholder="type stuff here" />
 );
 
 export default (
-  {
-    goodSearch,
-    results,
-    sells,
-    buys,
-    name,
-  },
-  {
-    searchGoods,
-    searchStations,
-    bitFlip,
-  },
-) =>
+  { goodSearch, results, sells, buys, name },
+  { searchGoods, searchStations, bitFlip },
+) => (
   <div class="counter">
     <h3>Filter {goodSearch ? 'Goods' : 'Stations'}</h3>
 
     <br />
     <button onclick={bitFlip}>
-      {
-        goodSearch
-          ? 'Switch to Station Search by name'
-          : 'Switch to Good Search by name'
-      }
+      {goodSearch
+        ? 'Switch to Station Search by name'
+        : 'Switch to Good Search by name'}
     </button>
     <br />
     <br />
@@ -51,10 +32,9 @@ export default (
     {goodSearch ? goodInput(searchGoods) : stationInput(searchStations)}
 
     <section>
-      {
-        goodSearch
-          ? resultsLoader(Good)(results, null)
-          : resultsLoader(Station)([null], { name, sells, buys })
-      }
+      {goodSearch
+        ? resultsLoader(Good)(results, null)
+        : resultsLoader(Station)([null], { name, sells, buys })}
     </section>
-  </div>;
+  </div>
+);

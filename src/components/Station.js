@@ -8,10 +8,10 @@ export default (_result, { name, sells, buys }) => {
     <section class="stations">
       <h1>{name}</h1>
       <h4>Sells:</h4>
-      {(sellItems.length > 0) ? <ul>{sellItems}</ul> : 'N/A'}
+      {sellItems.length > 0 ? <ul>{sellItems}</ul> : 'N/A'}
 
       <h4>Buys</h4>
-      {(buyItems.length > 0) ? <ul>{buyItems}</ul> : 'N/A'}
+      {buyItems.length > 0 ? <ul>{buyItems}</ul> : 'N/A'}
     </section>
   );
 };
