@@ -1,9 +1,8 @@
-
 |Acid
 |1
 |402
 |[[Chemicals Factory]], [[Rubber Factory]]
-|[[Explosive Charge Factory]], [[Paint Manufacturer]]
+|[[Explosive Charge Factory]], [[Paint Manufacturer]], [[Mine]]
 |no
 |no
 |-
@@ -19,7 +18,7 @@
 |0.25
 |402
 |[[Chemicals Factory]]
-|[[Ammunition Factory]], [[Ammunition S Factory]], [[Explosive Charge Factory]], [[High Pressure Tube Factory]]
+|[[Ammunition Factory]], [[Explosive Charge Factory]], [[High Pressure Tube Factory]]
 |no
 |no
 |-
@@ -27,11 +26,11 @@
 |1
 |200
 |[[Aluminium Mine]]
-|[[Ammunition Factory]], [[Ammunition S Factory]], [[Gun Factory]], [[High Pressure Tube Factory]], [[Laser Head Factory]], [[Servo Factory]], [[Steel Tube Factory]], [[Tools Factory]]
+|[[Ammunition Factory]], [[Gun Factory]], [[High Pressure Tube Factory]], [[Laser Head Factory]], [[Servo Factory]], [[Steel Tube Factory]], [[Tools Factory]]
 |no
 |no
 |-
-|Ammunition
+|[[Mine|Ammunition]]
 |3
 |3786
 |[[Ammunition Factory]]
@@ -42,24 +41,24 @@
 |Ammunition L
 |2.5
 |422
-|[[Ammunition Factory]], [[Ammunition S Factory]]
-|Military Outpost
+|[[Ammunition Factory]]
+|[[Military Outpost]]
 |no
 |no
 |-
 |Ammunition M
 |1.5
 |422
-|[[Ammunition Factory]], [[Ammunition S Factory]]
-|Military Outpost
+|[[Ammunition Factory]]
+|[[Military Outpost]]
 |no
 |no
 |-
 |Ammunition S
 |0.5
 |422
-|[[Ammunition Factory]], [[Ammunition S Factory]]
-|Military Outpost
+|[[Ammunition Factory]]
+|[[Military Outpost]]
 |no
 |no
 |-
@@ -67,7 +66,7 @@
 |2.5
 |71632
 |[[Anti-Grav Generator Factory]]
-|Research Station
+|[[Research Station]]
 |no
 |no
 |-
@@ -75,7 +74,7 @@
 |2.5
 |25391
 |[[Antigrav Unit Factory]]
-|[[Anti-Grav Generator Factory]], [[Body Armor Factory]], [[Teleporter Factory]], [[Vehicle Factory]],Oil Rig, Repair Dock, Shipyard
+|[[Anti-Grav Generator Factory]], [[Body Armor Factory]], [[Teleporter Factory]], [[Vehicle Factory]], [[Oil Rig]], [[Repair Dock]], [[Shipyard]], [[Equipment Dock]],[[Mine]]
 |no
 |no
 |-
@@ -83,7 +82,7 @@
 |0.5
 |216
 |[[Brewery]]
-|Casino
+|[[Casino]]
 |no
 |no
 |-
@@ -107,7 +106,7 @@
 |0.2
 |319
 |[[Book Factory]]
-|Habitat
+|[[Habitat]]
 |no
 |no
 |-
@@ -163,7 +162,7 @@
 |0.2
 |87
 |[[Cocoa Farm]]
-|Habitat
+|[[Habitat]]
 |no
 |no
 |-
@@ -171,7 +170,7 @@
 |0.2
 |187
 |[[Coffee Farm]]
-|Habitat
+|[[Habitat]]
 |no
 |no
 |-
@@ -179,7 +178,7 @@
 |1
 |37940
 |[[Computation Mainframe Factory]]
-|
+|[[Shipyard]]
 |no
 |no
 |-
@@ -211,7 +210,7 @@
 |1
 |28
 |[[Corn Farm]]
-|[[Carbon Extractor]], [[Cattle Ranch]], [[Food Bar Factory]], [[Food Factory]], [[Sheep Ranch]], Biotope
+|[[Carbon Extractor]], [[Cattle Ranch]], [[Food Bar Factory]], [[Food Factory]], [[Sheep Ranch]], [[Biotope]]
 |no
 |no
 |-
@@ -251,7 +250,7 @@
 |20
 |20443
 |[[Drill Factory]]
-|[[Mining Robot Factory]], Research Station, Mines
+|[[Mining Robot Factory]], [[Research Station]], [[Mine|Mines]], [[Equipment Dock]]
 |no
 |no
 |-
@@ -275,7 +274,7 @@
 |1
 |13985
 |[[Electromagnetic Charge Factory]]
-|Military Outpost
+|[[Military Outpost]]
 |no
 |no
 |-
@@ -291,7 +290,7 @@
 |0.5
 |50
 |[[Solar Power Plant]]
-|[[Ammunition Factory]], [[Ammunition S Factory]], [[Antigrav Unit Factory]], [[Book Factory]], [[Chemicals Factory]], [[Cocoa Farm]], [[Coffee Farm]], [[Conductor Factory]], [[Corn Farm]], [[Distillery]], [[Energy Container Factory]], [[Energy Generator Factory]], [[Energy Tube Factory]], [[Explosive Charge Factory]], [[Fertilizer Factory]], [[Food Bar Factory]], [[Fruit Farm]], [[Fuel Factory]], [[Gauss Rail Factory]], [[Laser Head Factory]], [[Laser Modulator Factory]], [[Luxury Food Factory]], [[Microchip Factory]], [[Oil Refinery]], [[Plant Farm]], [[Plasma Cell Factory]], [[Plastic Manufacturer]], [[Potato Farm]], [[Power Unit Factory]], [[Rice Farm]], [[Rubber Factory]], [[Semi Conductor Manufacturer]], [[Sheep Ranch]], [[Solar Cell Factory]], [[Spices Farm]], [[Targeting System Factory]], [[Tea Farm]], [[Tools Factory]], [[Transformator Factory]], [[Vegetable Farm]], [[Wheat Farm]], [[Wood Farm]]
+|[[Ammunition Factory]], [[Antigrav Unit Factory]], [[Book Factory]], [[Chemicals Factory]], [[Cocoa Farm]], [[Coffee Farm]], [[Conductor Factory]], [[Corn Farm]], [[Distillery]], [[Energy Container Factory]], [[Energy Generator Factory]], [[Energy Tube Factory]], [[Explosive Charge Factory]], [[Fertilizer Factory]], [[Food Bar Factory]], [[Fruit Farm]], [[Fuel Factory]], [[Gauss Rail Factory]], [[Laser Head Factory]], [[Laser Modulator Factory]], [[Luxury Food Factory]], [[Microchip Factory]], [[Oil Refinery]], [[Plant Farm]], [[Plasma Cell Factory]], [[Plastic Manufacturer]], [[Potato Farm]], [[Power Unit Factory]], [[Rice Farm]], [[Rubber Factory]], [[Semi Conductor Manufacturer]], [[Sheep Ranch]], [[Solar Cell Factory]], [[Spices Farm]], [[Targeting System Factory]], [[Tea Farm]], [[Tools Factory]], [[Transformator Factory]], [[Vegetable Farm]], [[Wheat Farm]], [[Wood Farm]]
 |no
 |no
 |-
@@ -371,7 +370,7 @@
 |0.5
 |300
 |[[Food Factory]]
-|Habitat
+|[[Habitat]]
 |no
 |no
 |-
@@ -387,7 +386,7 @@
 |4
 |49576
 |[[Force Generator Factory]]
-|Research Station
+|[[Research Station]]
 |no
 |no
 |-
@@ -427,7 +426,7 @@
 |2.5
 |39553
 |[[Fusion Generator Factory]]
-|[[Accelerator Factory]], Research Station, Mines
+|[[Accelerator Factory]], [[Research Station]], [[Mine]]
 |no
 |no
 |-
@@ -467,7 +466,7 @@
 |0.5
 |1232
 |[[Gun Factory]]
-|[[War Robot Factory]], Military Outpost
+|[[War Robot Factory]], [[Military Outpost]]
 |no
 |yes
 |-
@@ -547,7 +546,7 @@
 |1
 |200
 |[[Lead Mine]]
-|[[Ammunition Factory]], [[Ammunition S Factory]]
+|[[Ammunition Factory]]
 |no
 |no
 |-
@@ -563,7 +562,7 @@
 |1.25
 |1867
 |[[Distillery]]
-|Casino, Habitat
+|[[Casino]], [[Habitat]]
 |no
 |no
 |-
@@ -571,7 +570,7 @@
 |2.5
 |6452
 |[[Luxury Food Factory]]
-|Habitat
+|[[Habitat]]
 |no
 |no
 |-
@@ -587,7 +586,7 @@
 |1
 |3006
 |[[Medical Supplies Factory]]
-|Military Outpost
+|[[Military Outpost]]
 |no
 |no
 |-
@@ -627,7 +626,7 @@
 |8
 |145977
 |[[Mining Robot Factory]]
-|Planetary Trading Post, Mines
+|[[Planetary Trading Post]], [[Mine|Mines]]
 |no
 |no
 |-
@@ -811,7 +810,7 @@
 |4
 |11250
 |[[Rocket Factory]]
-|
+|[[Equipment Dock]]
 |no
 |yes
 |-
@@ -827,7 +826,7 @@
 |15
 |65714
 |[[Satellite Factory]]
-|Research Station
+|[[Research Station]]
 |no
 |no
 |-
@@ -891,7 +890,7 @@
 |2
 |469
 |[[Solar Cell Factory]]
-|[[Solar Panel Factory]]
+|[[Solar Panel Factory]], [[Shipyard]]
 |no
 |no
 |-
@@ -923,7 +922,7 @@
 |1
 |277
 |[[Steel Factory]]
-|[[Ammunition Factory]], [[Ammunition S Factory]], [[Conductor Factory]], [[Drill Factory]], [[Electro Magnet Factory]], [[Energy Tube Factory]], [[Explosive Charge Factory]], [[Force Generator Factory]], [[Fusion Generator Factory]], [[Gun Factory]], [[High Pressure Tube Factory]], [[Metal Plate Factory]], [[Plasma Cell Factory]], [[Rocket Factory]], [[Semi Conductor Manufacturer]], [[Servo Factory]], [[Steel Tube Factory]], [[Tesla Coil Factory]], [[Tools Factory]], [[Transformator Factory]], [[Turbine Factory]], [[Wire Manufacturer]]
+|[[Ammunition Factory]], [[Conductor Factory]], [[Drill Factory]], [[Electro Magnet Factory]], [[Energy Tube Factory]], [[Explosive Charge Factory]], [[Force Generator Factory]], [[Fusion Generator Factory]], [[Gun Factory]], [[High Pressure Tube Factory]], [[Metal Plate Factory]], [[Plasma Cell Factory]], [[Rocket Factory]], [[Semi Conductor Manufacturer]], [[Servo Factory]], [[Steel Tube Factory]], [[Tesla Coil Factory]], [[Tools Factory]], [[Transformator Factory]], [[Turbine Factory]], [[Wire Manufacturer]]
 |no
 |no
 |-
@@ -955,7 +954,7 @@
 |0.2
 |37
 |[[Tea Farm]]
-|Habitat
+|[[Habitat]]
 |no
 |no
 |-
@@ -971,7 +970,7 @@
 |0.4
 |214
 |[[Tools Factory]]
-|Equipment Dock
+|[[Equipment Dock]]
 |no
 |no
 |-
@@ -1011,7 +1010,7 @@
 |25
 |77087
 |[[Vehicle Factory]]
-|Trading post, Military outpost
+|[[Trading Post]], [[Military Outpost]]
 |no
 |no
 |-
@@ -1019,7 +1018,7 @@
 |8
 |92186
 |[[War Robot Factory]]
-|Military Outpost
+|[[Military Outpost]]
 |no
 |yes
 |-
@@ -1051,7 +1050,7 @@
 |0.5
 |182
 |[[Wine Factory]]
-|[[Luxury Food Factory]], Habitat
+|[[Luxury Food Factory]], [[Habitat]]
 |no
 |no
 |-
