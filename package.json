@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build ./src/index.html --out-dir build/ --public-url ./build && cp ./build/index.html ./index.html",
-    "test": "npx eslint src/**"
+    "test": "echo 'no tests..'"
   },
   "author": "Regis Boudinot (selfup)",
   "license": "MIT",
