@@ -1,5 +1,5 @@
 body {
-  background-color: #36393F;
+  background-color: #36393f;
   padding: 20px;
   font-family: sans-serif;
   min-height: 100vh;
@@ -12,10 +12,41 @@ h3 {
   font-size: 2em;
   font-family: sans-serif;
 }
+
 h1 {
   font-size: 1.5em;
   text-decoration: underline;
   color: white;
+}
+
+button {
+  border-radius: 5px;
+  height: 30px;
+  width: 225px;
+  font-size: 0.85em;
+  font-family: sans-serif;
+}
+
+input {
+  outline: 0;
+  border-width: 0 0 1.5px;
+  border-color: #1e90ff;
+  border-radius: 5px;
+  height: 25px;
+  width: 220px;
+  font-size: 1.2em;
+  color: gray;
+}
+
+article.card {
+  color: wheat;
+  min-height: 450px;
+}
+
+.bad {
+  width: 300px;
+  background-color: rgb(48, 192, 91);
+  color: #fff;
 }
 
 button {
@@ -56,7 +87,26 @@ article.card {
   box-shadow: 0 8px 8px -6px lightgrey;
 }
 
-.bad, .good {
+.stations {
+  margin-left: 10px;
+}
+
+input {
+  outline: 0;
+  border-width: 0 0 1.5px 0;
+  border-color: dodgerblue;
+}
+
+input:focus {
+  border-color: rgb(43, 7, 248);
+}
+
+section.stations {
+  color: wheat;
+}
+
+.bad,
+.good {
   width: 300px;
   color: #fff;
   border-radius: 4px;
