@@ -12,6 +12,7 @@ h3 {
   font-size: 2em;
   font-family: sans-serif;
 }
+
 h1 {
   font-size: 1.5em;
   text-decoration: underline;
@@ -48,10 +49,28 @@ article.card {
   color: #fff;
 }
 
-.good {
-  width: 300px;
-  background-color: rgb(199, 21, 45);
-  color: #fff;
+button {
+  border-radius: 5px;
+  height: 30px;
+  width: 225px;
+  font-size: .85em;
+  font-family: sans-serif;
+}
+
+input {
+  outline: 0;
+  border-width: 0 0 1.5px;
+  border-color: #1e90ff;
+  border-radius: 5px;
+  height: 25px;
+  width: 220px;
+  font-size: 1.2em;
+  color: gray;
+}
+
+article.card {
+  color: wheat;
+  min-height: 450px;
 }
 
 .card {
@@ -59,9 +78,9 @@ article.card {
   padding: 10px;
   margin: 15px 10px;
   border-radius: 5px;
-  border: 0.5px solid #d3d3d3;
+  border: .5px solid #d3d3d3;
   display: inline-block;
-  background-color: #2f3136;
+  background-color: #2F3136;
   width: 305px;
   -webkit-box-shadow: 0 8px 6px -6px lightgrey;
   -moz-box-shadow: 0 8px 6px -6px grey;
@@ -82,12 +101,8 @@ input:focus {
   border-color: rgb(43, 7, 248);
 }
 
-h5 {
-  padding-left: 5px;
-}
-
-section {
-  margin-left: -10px;
+section.stations {
+  color: wheat;
 }
 
 .bad,
