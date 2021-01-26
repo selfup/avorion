@@ -1,4 +1,5 @@
 body {
+  background-color: cadetblue;
   padding: 20px;
   font-family: sans-serif;
   min-height: 100vh;
@@ -27,7 +28,7 @@ body {
   border-width: 0.5px;
   border-color: lightgray;
   display: inline-block;
-  background-color: rgb(255, 255, 253);
+  background-color: lightcyan;
   width: 305px;
   -webkit-box-shadow: 0 8px 6px -6px grey;
   -moz-box-shadow: 0 8px 6px -6px grey;
