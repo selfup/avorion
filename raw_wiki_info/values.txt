@@ -570,7 +570,7 @@
 |2.5
 |6452
 |[[Luxury Food Factory]]
-|[[Casino]], [[Habitat]]
+|[[Casino]]
 |no
 |no
 |-
