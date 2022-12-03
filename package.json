@@ -2,10 +2,9 @@
   "name": "avorion",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build ./src/index.html --out-dir build/ --public-url ./build && cp ./build/index.html ./index.html",
+    "build": "parcel build ./src/index.html --dist-dir build/ --public-url ./build && cp ./build/index.html ./index.html",
     "test": "echo 'no tests..'"
   },
   "author": "Regis Boudinot (selfup)",
@@ -17,7 +16,7 @@
     "@babel/core": "^7.10.5",
     "@babel/plugin-transform-react-jsx": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
-    "parcel": "^1.12.4"
+    "parcel": "^2.8.0"
   },
   "babel": {
     "presets": [
