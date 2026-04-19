@@ -16,7 +16,7 @@
     "@babel/core": "^7.10.5",
     "@babel/plugin-transform-react-jsx": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
-    "parcel": "^2.8.0"
+    "parcel": "^2.16.4"
   },
   "babel": {
     "presets": [
