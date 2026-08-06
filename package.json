@@ -13,9 +13,9 @@
     "hyperapp": "^0.18.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.10.5",
-    "@babel/plugin-transform-react-jsx": "^7.10.4",
-    "@babel/preset-env": "^7.10.4",
+    "@babel/core": "^8.0.1",
+    "@babel/plugin-transform-react-jsx": "^8.0.1",
+    "@babel/preset-env": "^8.0.2",
     "parcel": "^2.16.4"
   },
   "babel": {
