@@ -1,0 +1,4 @@
+{
+  "exclude": ["test/**", "src/index.js", "parseWikiGoods.js"],
+  "reporter": ["text", "html"]
+}
