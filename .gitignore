@@ -6,4 +6,5 @@ dist
 .parcel-cache
 .nyc_output
 coverage
+.wiki_cache
 .ori
